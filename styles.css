@@ -32,7 +32,7 @@ body {
 }
 .container {
   display: grid;
-  grid-template-columns: 3fr 1.2fr;
+  grid-template-columns: 714.28px 285.71px;
   padding: 20px;
   padding-top: 0px;
 }
@@ -49,7 +49,7 @@ body {
 
 .main {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 250px 750px;
 }
 .main_text {
 padding-left: 15px;
@@ -57,7 +57,7 @@ padding-left: 15px;
 
 .info-container {
   display: grid;
-  grid-template-columns: 1fr 6fr;
+  grid-template-columns: 142.85px 857.14fr;
 }
 
 .full-name {
