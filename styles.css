@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  background: #eee;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #222;
+  font-size: 16px;
+  line-height: 26px;
+  padding-bottom: 50px;
+  /* font-weight: 600; */
+}
+
+.wrapper {
+  max-width: 1000px;
+  background: #fff;
+  margin: 0px auto 0px;
+  box-shadow: 1px 1px 2px #dad7d7;
+  border-radius: 3px;
+  margin-top: 50px;
+}
+.color-line {
+  background-color: #54afe4;
+  height: 30px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 3fr 1.2fr;
+  padding: 20px;
+  padding-top: 0px;
+}
+
+.section {
+  padding-bottom: 20px;
+  padding-right: 30px;
+}
+
+.photo {
+  padding: 15px;
+  padding-left: 0px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.main_text {
+padding-left: 15px;
+}
+
+.info-container {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+}
+
+.full-name {
+  padding-top: 50px;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+
+.section__title,
+.vocation {
+  letter-spacing: 2px;
+  /* color: #54afe4; */
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+.vocation {
+  padding-top: 15px;
+  font-size: 1.5em;
+}
+.experience,
+.about {
+  padding-top: 30px;
+}
+
+/* icons styles */
+
+.location::before {
+  content: url(/img/location.png);
+  padding-right: 5px;
+  filter: invert(67%) sepia(44%) saturate(894%) hue-rotate(173deg)
+    brightness(93%) contrast(91%);
+}
+.age::before {
+  content: url(/img/info.png);
+  padding-right: 5px;
+  filter: invert(67%) sepia(44%) saturate(894%) hue-rotate(173deg)
+    brightness(93%) contrast(91%);
+}
+
+.contact::before {
+  content: url(/img/mail_25.png);
+  position: relative;
+  top: 5px;
+  padding-right: 5px;
+  filter: invert(67%) sepia(44%) saturate(894%) hue-rotate(173deg)
+    brightness(93%) contrast(91%);
+}
+
+.email::before {
+  content: url(/img/mail.png);
+  position: relative;
+  top: 5px;
+  padding-right: 5px;
+  filter: invert(67%) sepia(44%) saturate(894%) hue-rotate(173deg)
+    brightness(93%) contrast(91%);
+}
+.phone::before {
+  content: url(/img/phone.png);
+  position: relative;
+  top: 5px;
+  padding-right: 5px;
+  filter: invert(67%) sepia(44%) saturate(894%) hue-rotate(173deg)
+    brightness(93%) contrast(91%);
+}
+.git::before{
+  content: url(/img/git.png);
+  position: relative;
+  top: 5px;
+  padding-right: 5px;
+  filter: invert(67%) sepia(44%) saturate(894%) hue-rotate(173deg)
+    brightness(93%) contrast(91%);
+}
+.education::before {
+  content: url(/img/graduation-cap_30.png);
+  position: relative;
+  top: 7px;
+  padding-right: 5px;
+  filter: invert(67%) sepia(44%) saturate(894%) hue-rotate(173deg)
+    brightness(93%) contrast(91%);
+}
+
+.languages::before {
+  content: url(/img/global_30.png);
+  position: relative;
+  top: 3px;
+  padding-right: 5px;
+  filter: invert(67%) sepia(44%) saturate(894%) hue-rotate(173deg)
+    brightness(93%) contrast(91%);
+}
+
+.courses::before {
+  content: url(/img/online-course.png);
+  position: relative;
+  top: 3px;
+  padding-right: 5px;
+  filter: invert(67%) sepia(44%) saturate(894%) hue-rotate(173deg)
+    brightness(93%) contrast(91%);
+}
+.experience::before {
+  content: url(/img/experience.png);
+  position: relative;
+  top: 5px;
+  padding-right: 5px;
+  filter: invert(67%) sepia(44%) saturate(894%) hue-rotate(173deg)
+    brightness(93%) contrast(91%);
+}
+.about::before {
+  content: url(/img/about.png);
+  position: relative;
+  top: 7px;
+  padding-right: 5px;
+  filter: invert(67%) sepia(44%) saturate(894%) hue-rotate(173deg)
+    brightness(93%) contrast(91%);
+}
+.skills::before {
+  content: url(/img/project-management.png);
+  position: relative;
+  top: 3px;
+  padding-right: 5px;
+  filter: invert(67%) sepia(44%) saturate(894%) hue-rotate(173deg)
+    brightness(93%) contrast(91%);
+}
+
+/* list styles */
+
+li {
+  padding: 6px;
+  list-style: none;
+}
+.li_skills li:before,
+.li_languages li:before {
+  padding-right: 10px;
+  font-weight: bold;
+  color: #54afe4;
+  content: "\25CB";
+}
+
+.date {
+  color: #afafaf;
+  padding-left: 10px;
+}
+
+.org_name,
+.degree {
+  color: #54afe4;
+  font-weight: 600;
+}
