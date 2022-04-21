@@ -20,6 +20,7 @@ body {
 
 .wrapper {
   max-width: 1000px;
+  min-width: 1000px;
   background: #fff;
   margin: 0px auto 0px;
   box-shadow: 1px 1px 2px #dad7d7;
@@ -32,7 +33,7 @@ body {
 }
 .container {
   display: grid;
-  grid-template-columns: 714.28px 285.71px;
+  grid-template-columns: 720px 280px;
   padding: 20px;
   padding-top: 0px;
 }
@@ -49,7 +50,7 @@ body {
 
 .main {
   display: grid;
-  grid-template-columns: 250px 750px;
+  grid-template-columns: 180px 540px;
 }
 .main_text {
 padding-left: 15px;
@@ -57,7 +58,7 @@ padding-left: 15px;
 
 .info-container {
   display: grid;
-  grid-template-columns: 142.85px 857.14fr;
+  grid-template-columns: 90px 630px;
 }
 
 .full-name {
