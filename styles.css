@@ -33,7 +33,7 @@ body {
 }
 .container {
   display: grid;
-  grid-template-columns: 720px 280px;
+  grid-template-columns: 710px 270px;
   padding: 20px;
   padding-top: 0px;
 }
@@ -50,7 +50,7 @@ body {
 
 .main {
   display: grid;
-  grid-template-columns: 180px 540px;
+  grid-template-columns: 175px 535px;
 }
 .main_text {
 padding-left: 15px;
@@ -58,7 +58,7 @@ padding-left: 15px;
 
 .info-container {
   display: grid;
-  grid-template-columns: 90px 630px;
+  grid-template-columns: 85px 625px;
 }
 
 .full-name {
